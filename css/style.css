@@ -507,7 +507,9 @@ a.btn:hover {
 ----------------------------------------------------------------------------*/
 
 html, body {
-    min-height: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: auto;
 }
 div[role=main] {
     background-color: #fdfdfd; 
@@ -593,11 +595,13 @@ tfoot {
     margin-top: 3em;
     max-width: 34em;
 }
-.wwwiggle-image {
+.hero-header img {
     padding-bottom: 6em;
+    position: relative;
 }
 footer {
-    color: #c9c9c9;
+    color: #eee;
+    background-color: #eee;
     position: absolute;
     bottom: 0;
     width: 100%
